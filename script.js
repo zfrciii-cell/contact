@@ -46,12 +46,12 @@ particlesJS("particles-js", {
 
 
 const words = [
-    "Just an ordinary developer",
+"Just an ordinary developer",
 "GYM Enthusiast",
 "Backend Learner",
 "Merchant worker",
-"Web Developer in Progress"
-
+"Frontend Enthusiast",
+"Young creator"
 ];
 
 let i = 0;
@@ -91,8 +91,3 @@ setTimeout(type,isDeleting ? 40 : 80);
 
 type();
 
-window.addEventListener("load", function(){
-setTimeout(function(){
-document.getElementById("loader").style.display="none";
-},3000);
-});
