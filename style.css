@@ -358,7 +358,7 @@ align-items:center;
 }
 
 .top{
-top:-50px;
+top:-54px;
 }
 
 .mid{
@@ -371,9 +371,9 @@ top:10px;
 }
 
 .arrow{
-margin-left:50px;
+margin-left:55px;
 transform:scale(0.9);
-font-size:42px;
+font-size:72px;
 }
 
 }
