@@ -358,7 +358,7 @@ align-items:center;
 }
 
 .top{
-top:-65px;
+top:-66px;
 left: 5px;
 }
 
@@ -372,9 +372,10 @@ top:10px;
 }
 
 .arrow{
-margin-left:66px;
-transform:scale(2.7);
-height: 33px;
+margin-left:60px;
+height: 50px;
+width: 37px;
+
 }
 
 }
