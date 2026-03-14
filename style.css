@@ -358,19 +358,22 @@ align-items:center;
 }
 
 .top{
-top:-55px;
+top:-42px;
 }
 
 .mid{
 top:0;
+font-size:34px;
 }
 
 .bot{
-top:12px;
+top:10px;
 }
 
 .arrow{
-margin-left:20px;
+margin-left:40px;
+transform:scale(0.9);
+font-size:32px;
 }
 
 }
