@@ -358,7 +358,7 @@ align-items:center;
 }
 
 .top{
-top:-54px;
+top:-58px;
 }
 
 .mid{
@@ -372,8 +372,8 @@ top:10px;
 
 .arrow{
 margin-left:55px;
-transform:scale(0.9);
-font-size:72px;
+transform:scale(2.9);
+
 }
 
 }
