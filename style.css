@@ -358,7 +358,7 @@ align-items:center;
 }
 
 .top{
-top:-40px;
+top:-55px;
 }
 
 .mid{
@@ -366,11 +366,11 @@ top:0;
 }
 
 .bot{
-top:10px;
+top:12px;
 }
 
 .arrow{
-margin-left:5px;
+margin-left:20px;
 }
 
 }
