@@ -1,7 +1,7 @@
 
 
 body{
-background:#0f172a;
+background: #0f172a;
 font-family:Arial;
 color:white;
 display:flex;
@@ -17,7 +17,7 @@ background:#1e293b;
 padding:40px;
 border-radius:15px;
 width:300px;
-box-shadow:0 0 20px rgba(0,0,0,0.5);
+box-shadow:0 0 40px rgba(0,195,255,0.15);
 }
 
 
@@ -37,7 +37,9 @@ font-size:22px;
 margin:10px;
 transition:0.3s;
 }
-
+.social{
+    margin-bottom: -15px;
+}
 .social a:hover{
 color:#38bdf8;
 }
@@ -50,6 +52,7 @@ margin-bottom:15px;
 border:3px solid #38bdf8;
 box-shadow:0 0 20px #38bdf8;
 }
+
 .social a{
 color:white;
 font-size:22px;
@@ -73,6 +76,12 @@ h1{
     font-size:14px;
     color:#94a3b8;
     margin-bottom:10px;
+}
+.skills{
+  margin-top:10px;
+  font-size:14px;
+  color:#b8c5d6;
+  letter-spacing:1px;
 }
 .idea{
     font-family: 'Roboto', sans-serif;
@@ -104,4 +113,214 @@ h1{
         font-size:20px;
         margin:8px;
     }
+}
+
+.ismim {
+font-size: 28px;
+transition: 0.2s;
+}
+
+
+#particles-js{
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+background: #000;
+}
+
+#typing{
+font-size:18px;
+color:#00aaff;
+}
+.cursor{
+font-size:20px;
+color:#00aaff;
+animation: blink 1s infinite;
+}
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}
+
+
+.ismim{
+font-size:30px;
+font-weight:bold;
+
+background: linear-gradient(270deg,#38bdf8,#94a3b8,#94a3b8,#38bdf8,#38bdf8,#94a3b8,#38bdf8);
+background-size:600%;
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation: colorShift 12s ease infinite;
+}
+
+@keyframes colorShift{
+0%{
+background-position:0% 50%;
+}
+50%{
+background-position:100% 50%;
+}
+100%{
+background-position:0% 50%;
+}
+}
+
+.buttons{
+    margin-top:15px;
+  margin-bottom:25px;
+}
+
+.buttons a{
+  display:inline-block;
+  margin:5px;
+  padding:6px 16px;
+  border:1px solid #00c3ff;
+  border-radius:20px;
+  color:#00c3ff;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.buttons a:hover{
+  background:#00c3ff;
+  color:white;
+  box-shadow:0 0 15px #00c3ff;
+}
+html{
+scroll-behavior:smooth;
+}
+footer{
+  text-align:center;
+  margin-top:20px;
+  margin-bottom: -20px;
+  color:#9aa7b8;
+  font-size:13px;
+  letter-spacing:1px;
+  opacity:0.8;
+}
+
+
+#loader{
+position:fixed;
+width:100%;
+height:100%;
+background:#000;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.logo span{
+font-size:70px;
+color:#222;
+position:relative;
+display:inline-block;
+text-shadow:0 0 1px #00bfff;
+}
+
+.logo span::before{
+content:attr(data-text);
+position:absolute;
+left:0;
+top:0;
+width:0;
+color:#00bfff;
+overflow:hidden;
+white-space:nowrap;
+animation:fill 1s forwards;
+}
+
+.logo span:nth-child(1)::before{
+animation-delay:0.3s;
+
+}
+
+.logo span:nth-child(2)::before{
+animation-delay:1s;
+font-size:40px;
+top:12px;
+}
+
+.logo span:nth-child(3)::before{
+animation-delay:1.7s;
+}
+
+@keyframes fill{
+from{width:0}
+to{width:100%}
+}
+
+/* joylashuv */
+.top{
+top:-55px;
+}
+
+.mid{
+top:0;
+font-size:45px;
+}
+
+.bot{
+top:12px;
+}
+/* STRELKA */
+/* strelka */
+/*.arrow{
+position:absolute;
+left:55px; 
+top:75px;
+
+font-size:28px;
+color:#00bfff;
+opacity:0;
+animation:arrowShow 1s forwards;
+animation-delay:2.2s;
+}
+
+@keyframes arrowShow{
+from{
+opacity:0;
+transform:translateY(10px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+/* arrow */
+.arrow{
+position:absolute;
+left:30px;
+bottom:10px;
+width:80px;
+height:80px;
+stroke:#00bfff;
+stroke-width:4;
+fill:none;
+width:clamp(40px,6vw,90px);
+stroke-dasharray:200;
+stroke-dashoffset:200;
+
+animation:draw 1.5s forwards;
+animation-delay:2s;
+}
+
+@keyframes draw{
+to{
+stroke-dashoffset:0;
+}
+}
+.logo{
+position:relative;
+width:160px;
+height:120px;
+font-size:clamp(30px,6vw,70px);
 }

@@ -5,28 +5,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
 
 <!-- icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<script>
+window.addEventListener("load", function(){
+  const loader = document.getElementById("loader");
+  if(loader){
+    loader.style.display = "none";
+  }
+});
+</script>
 </head>
+
 <body>
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="particles.js"></script>
+
 
 <div class="container">
-<img src="profile.jpg" class="profile" alt="My Profile Picture">
+<img src="profile.png" class="profile" alt="My Profile Picture">
 
 
-<h1>
-    Zafar Erkinov
-</h1>
+
+<h1 class="ismim">Zafar Erkinov</h1>
+<span id="typing"></span><span class="cursor">|</span>
+
+
 
 <p class="about">
-Build websites it's just a kind of my hobby.
-My priceless rule: What you think, you become.
+Creating websites is one of my hobbies. 
+My invaluable rule: "What you think you become"
 </p>
+<div class="skills">
+HTML • CSS • JavaScript • GitHub
+</div>
+
+
+<div class="buttons">
+  <a href="#projects">Projects</a>
+
+</div>
 
 <div class="social">
 
@@ -34,15 +60,32 @@ My priceless rule: What you think, you become.
 
 <a href="https://facebook.com/zfrci"><i class="fab fa-facebook"></i></a>
 
-<a href="https://t.me/sezaverasz"><i class="fab fa-telegram"></i></a>
+<a href="https://t.me/erkinov_zafar"><i class="fab fa-telegram"></i></a>
 
 <a href="https://wa.me/998200040107"><i class="fab fa-whatsapp"></i></a>
 
 <a href="https://m.me/zfrci"><i class="fab fa-facebook-messenger"></i></a>
 
 </div>
-
+<footer>
+© <script>document.write(new Date().getFullYear())</script> Zafar Erkinov
+</footer>
 </div>
+<script src="script.js"></script>
 
+<div id="loader">
+  <div class="logo">
+<h1>
+    <span class="bot" data-text="ₛ">ₛ</span>
+    <span class="mid" data-text="u">-</span>
+    <span class="top" data-text="ₚ">ₚ</span>
+  </h1>
+  <svg class="arrow" viewBox="0 0 100 100">
+      <path d="M10 80 L40 50 L60 60 L90 20"/>
+      <path d="M75 20 L90 20 L90 35"/>
+    </svg>
+
+  </div> 
+</div>
 </body>
 </html>
