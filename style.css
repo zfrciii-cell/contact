@@ -350,28 +350,30 @@ bottom:10px;
 }*/
 
 @media (max-width:600px){
+
 .logo{
-position:relative;
 display:flex;
 justify-content:center;
 align-items:center;
 }
+
 .top{
-top:-30px;
+top:-50px;
 }
 
 .mid{
-top:-5px;
-font-size:36px;
+top:0;
+font-size:34px;
 }
 
 .bot{
-top:25px;
+top:10px;
 }
 
 .arrow{
-font-size:26px;
-margin-left:12px;
+margin-left:50px;
+transform:scale(0.9);
+font-size:42px;
 }
 
 }
