@@ -358,7 +358,8 @@ align-items:center;
 }
 
 .top{
-top:-58px;
+top:-65px;
+left: 5px;
 }
 
 .mid{
@@ -371,8 +372,8 @@ top:10px;
 }
 
 .arrow{
-margin-left:55px;
-transform:scale(2.9);
+margin-left:61px;
+transform:scale(3.1);
 
 }
 
