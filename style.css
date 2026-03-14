@@ -351,14 +351,8 @@ bottom:10px;
 
 @media (max-width:600px){
 
-.logo{
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
 .top{
-top:-42px;
+top:-35px;
 }
 
 .mid{
@@ -367,13 +361,12 @@ font-size:34px;
 }
 
 .bot{
-top:10px;
+top:20px;
 }
 
 .arrow{
-margin-left:40px;
+margin-left:10px;
 transform:scale(0.9);
-font-size:32px;
 }
 
 }
