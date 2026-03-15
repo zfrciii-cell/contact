@@ -57,28 +57,40 @@ HTML • CSS • JavaScript • GitHub
 </div>
 
 
-<div class="buttons">
-  <a href="#projects">Projects</a>
+<button type="button" class="button">
+  
 
-</div>
+  
+
+  <span class="inner"
+    ><svg
+      class="icon"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2.5"
+    >
+      <polyline
+        points="13.18 1.37 13.18 9.64 21.45 9.64 10.82 22.63 10.82 14.36 2.55 14.36 13.18 1.37"
+      ></polyline></svg
+    >My projects</span>
+</button>
 
 <div class="social">
-
-<a href="https://instagram.com/z.erkinovv"><i class="fab fa-instagram"></i></a>
-
-<a href="https://facebook.com/zfrci"><i class="fab fa-facebook"></i></a>
-
-<a href="https://t.me/erkinov_zafar"><i class="fab fa-telegram"></i></a>
-
-<a href="https://wa.me/998200040107"><i class="fab fa-whatsapp"></i></a>
-
-<a href="https://m.me/zfrci"><i class="fab fa-facebook-messenger"></i></a>
-
+  <a href="https://instagram.com/z.erkinovv" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.facebook.com/zfrci" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://wa.me/998200040107" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://t.me/erkinov_zafar" class="telegram"><i class="fa-brands fa-telegram"></i></a>
 </div>
+
 <footer>
 © <script>document.write(new Date().getFullYear())</script> Zafar Erkinov
 </footer>
 </div>
+
 <script src="script.js"></script>
 
 
@@ -95,5 +107,12 @@ HTML • CSS • JavaScript • GitHub
 </div>
 
 
+
+
 </body>
 </html>
+<script>
+window.addEventListener("load", function(){
+  document.body.classList.add("loaded");
+});
+</script>
