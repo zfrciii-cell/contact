@@ -91,3 +91,8 @@ setTimeout(type,isDeleting ? 40 : 80);
 
 type();
 
+
+
+function openPage() {
+  window.location.href = "about.html";
+}
