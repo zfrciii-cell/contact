@@ -284,33 +284,21 @@ body.loaded{
   margin: 0;
 }
 
-@media (max-width: 600px){
-
-  .loader-wrapper2{
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100dvh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@media (max-width:768px){
 
   .loadingspinner2{
-    /* KATTALASHTIRISH */
-    --square: 34px;
-    --offset: 38px;
-
-    /* TO‘G‘RI CENTER */
-    margin: 0;
-    transform: translateY(-15px); /* 🔥 nozik markaz fix */
-    
-    width: calc(3 * var(--offset) + var(--square));
-    height: calc(3 * var(--offset) + var(--square));
+    transform:scale(0.8);
   }
 
 }
+
+@media (max-width:480px){
+
+  .loadingspinner2{
+    transform:scale(0.75);
+  }
+}
+
 
 
 /* From Uiverse.io by Lucaasbre */ 
@@ -778,12 +766,11 @@ transition: opacity 1.5s ease;
     opacity:0;
     visibility:hidden;
   }
-}*/
-body{
+}
+*{
 margin:0;
 padding:0;
 box-sizing:border-box;
-
 }
 @media (max-width:768px){
 
@@ -803,4 +790,4 @@ margin:4px;
 }
 
 }
-
+*/
