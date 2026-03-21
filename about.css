@@ -16,6 +16,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
   position: relative;
+ /* transform: scale(1.2);*/
 }
 
 .loadingspinner2 div {
@@ -252,7 +253,7 @@
   left:0;
   width:100%;
   height:100dvh;
- 
+ inset: 0;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -261,6 +262,7 @@ transition: opacity 1.5s ease;
   animation:loaderHide 1.5s forwards;
     background: linear-gradient(180deg,#071426,#020b16);
 }
+
 
 @keyframes loaderHide{
   0%{
@@ -275,10 +277,10 @@ transition: opacity 1.5s ease;
   }
 }
 
-/*body.loaded{
+body.loaded{
   opacity:1;
   transition: opacity 1s ease;
-}*/
+}
 /* Tablet */
 @media (max-width: 1024px) {
   .loadingspinner2 {
@@ -292,12 +294,14 @@ transition: opacity 1.5s ease;
   .loadingspinner2 {
     --square: 18px;
     --offset: 22px;
+       transform: scale(1.4);
   }
 
   .loader-wrapper2 {
     padding: 20px;
   }
 }
+
 
 
 @media (max-width: 768px) {
