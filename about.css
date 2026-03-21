@@ -252,14 +252,15 @@
   top:0;
   left:0;
   width:100%;
-  height:100dvh;
+  height:100vh;
  inset: 0;
-  display:flex;
+  display:grid;
   justify-content:center;
   align-items:center;
   z-index:9999;
 transition: opacity 1.5s ease;
-  animation:loaderHide 1.5s forwards;
+  animation:loaderHide 1.0s forwards;
+  place-items: center;
     background: linear-gradient(180deg,#071426,#020b16);
 }
 
@@ -296,7 +297,7 @@ body.loaded{
   .loadingspinner2 {
     --square: 4vw;
     --offset: 5vw;
-       transform: scale(1.5);
+       transform: scale(1.9);
            transform: translate(-50%, -50%) scale(2);
   }
 
