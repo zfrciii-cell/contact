@@ -16,7 +16,6 @@
   margin-top: 10px;
   margin-bottom: 30px;
   position: relative;
- transform: scale(1.1);
 }
 
 .loadingspinner2 div {
@@ -34,6 +33,7 @@
   font-size: 6pt;
   color: black;
 }
+
 
 .loadingspinner2 #square1 {
   left: calc( 0 * var(--offset) );
@@ -249,7 +249,8 @@
 
 .loader-wrapper2{
   position:fixed;
-
+  top:0;
+  left:0;
   width:100%;
   height:100dvh;
  inset: 0;
@@ -283,35 +284,43 @@ body.loaded{
   margin: 0;
 }
 /* Tablet */
-@media (max-width: 600px){
+@media (max-width: 1024px) {
+  .loadingspinner2 {
+    --square: 22px;
+    --offset: 26px;
+    transform: scale(1.5);
+  }
+}
 
-  .loader-wrapper2{
-    position: fixed;
-    inset: 0;
-    height: 100dvh;
-
-    display: grid;
-    place-items: center;
+/* Telefon */
+@media (max-width: 600px) {
+  .loadingspinner2 {
+    --square: 4vw;
+    --offset: 5vw;
+       transform: scale(1.8);
+           transform: translate(-50%, -50%) scale(2);
   }
 
-  .loadingspinner2{
-    margin: 0 auto;
-    transform: scale(1.9);
+  .loader-wrapper2 {
+    padding: 20px;
+  }
+}
 
-    width: calc(3 * var(--offset) + var(--square));
-    height: calc(3 * var(--offset) + var(--square));
+/*@media (max-width:768px){
+
+  .loadingspinner{
+    transform:scale(0.8);
   }
 
 }
 
+@media (max-width:480px){
 
+  .loadingspinner{
+    transform:scale(0.75);
+  }
+*/
 
-@media (max-width: 768px) {
-.card{
-width:90%;
-padding:25px;
-}
-}
 
 
 /* From Uiverse.io by Lucaasbre */ 
