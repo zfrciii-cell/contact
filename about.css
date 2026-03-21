@@ -283,32 +283,10 @@ body.loaded{
   transition: opacity 1s ease;
   margin: 0;
 }
-/* Tablet */
-@media (max-width: 1024px) {
-  .loadingspinner2 {
-    --square: 22px;
-    --offset: 26px;
-    transform: scale(1.5);
-  }
-}
 
-/* Telefon */
-@media (max-width: 600px) {
-  .loadingspinner2 {
-    --square: 4vw;
-    --offset: 5vw;
-       transform: scale(1.1);
-           transform: translate(-50%, -50%) scale(2);
-  }
+@media (max-width:768px){
 
-  .loader-wrapper2 {
-    padding: 20px;
-  }
-}
-
-/*@media (max-width:768px){
-
-  .loadingspinner{
+  .loadingspinner2{
     transform:scale(0.8);
   }
 
@@ -316,10 +294,10 @@ body.loaded{
 
 @media (max-width:480px){
 
-  .loadingspinner{
+  .loadingspinner2{
     transform:scale(0.75);
   }
-*/
+}
 
 
 
