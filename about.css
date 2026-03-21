@@ -283,6 +283,12 @@ transition: opacity 1.5s ease;
   .loadingspinner2{
     transform:scale(0.8);
   }
+  .loadingspinnerku{
+    transform:scale(0.8);
+  }
+  .loadingspinner2{
+    transform:scale(0.8);
+  }
 }
 @media (max-width:480px){
   .loadingspinner2{
