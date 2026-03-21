@@ -251,7 +251,7 @@
   top:0;
   left:0;
   width:100%;
-  height:100vh;
+  height:100dvh;
  
   display:flex;
   justify-content:center;
@@ -279,21 +279,25 @@ transition: opacity 1.5s ease;
   opacity:1;
   transition: opacity 1s ease;
 }*/
-@media (max-width:768px){
-  .loadingspinner2{
-    transform:scale(0.8);
-  }
-  .loadingspinnerku{
-    transform:scale(0.8);
-  }
-  .loadingspinner2{
-    transform:scale(0.8);
+/* Tablet */
+@media (max-width: 1024px) {
+  .loadingspinner2 {
+    --square: 22px;
+    --offset: 26px;
   }
 }
-@media (max-width:480px){
-  .loadingspinner2{
-    transform:scale(0.75);
-  }}
+
+/* Telefon */
+@media (max-width: 600px) {
+  .loadingspinner2 {
+    --square: 18px;
+    --offset: 22px;
+  }
+
+  .loader-wrapper2 {
+    padding: 20px;
+  }
+}
 
 
 @media (max-width: 768px) {
