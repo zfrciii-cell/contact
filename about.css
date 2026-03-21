@@ -249,8 +249,7 @@
 
 .loader-wrapper2{
   position:fixed;
-  top:0;
-  left:0;
+
   width:100%;
   height:100dvh;
  inset: 0;
@@ -284,26 +283,25 @@ body.loaded{
   margin: 0;
 }
 /* Tablet */
-@media (max-width: 1024px) {
-  .loadingspinner2 {
-    --square: 22px;
-    --offset: 26px;
-    transform: scale(1.5);
-  }
-}
+@media (max-width: 600px){
 
-/* Telefon */
-@media (max-width: 600px) {
-  .loadingspinner2 {
-    --square: 4vw;
-    --offset: 5vw;
-       transform: scale(1.5);
-           transform: translate(-50%, -50%) scale(2);
+  .loader-wrapper2{
+    position: fixed;
+    inset: 0;
+    height: 100dvh;
+
+    display: grid;
+    place-items: center;
   }
 
-  .loader-wrapper2 {
-    padding: 20px;
+  .loadingspinner2{
+    margin: 0 auto;
+    transform: scale(1.9);
+
+    width: calc(3 * var(--offset) + var(--square));
+    height: calc(3 * var(--offset) + var(--square));
   }
+
 }
 
 
