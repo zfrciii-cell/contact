@@ -502,7 +502,7 @@ background-position:0% 50%;
 
 
 /*loaderkuuuuu accept bosilgandegi*/
-.loadingspinnerku {
+/*.loadingspinnerku {
   --square: 26px;
   --offset: 30px;
   --duration: 2.4s;
@@ -525,8 +525,6 @@ background-position:0% 50%;
 .loadingspinnerku div {
   display: inline-block;
   background: #38bdf8;
-    /*background: var(--text-color);*/
-    /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
   border: none;
   border-radius: 2px;
   width: var(--square);
