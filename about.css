@@ -302,11 +302,13 @@ body.loaded{
     --offset: 30px;
 
     margin: 0;
-    transform: scale(1.8) translateY(-10px);
+    transform: scale(1.8) translateY(-15px);
 
     width: calc(3 * var(--offset) + var(--square));
     height: calc(3 * var(--offset) + var(--square));
   }
+
+
 }
 
 
