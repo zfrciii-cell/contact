@@ -308,16 +308,7 @@ body.loaded{
     height: calc(3 * var(--offset) + var(--square));
   }
 }
-@media (max-width:600px){
 
-  .card{
-    width: 90%;
-    max-width: 320px;
-    margin: 0 auto;
-    padding: 15px;
-  }
-
-}
 
 /* From Uiverse.io by Lucaasbre */ 
 
