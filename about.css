@@ -16,7 +16,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
   position: relative;
- transform: scale(1.3);
+ transform: scale(1.1);
 }
 
 .loadingspinner2 div {
@@ -297,6 +297,7 @@ body.loaded{
     --square: 4vw;
     --offset: 5vw;
        transform: scale(1.5);
+           transform: translate(-50%, -50%) scale(2);
   }
 
   .loader-wrapper2 {
@@ -502,7 +503,7 @@ background-position:0% 50%;
 
 
 /*loaderkuuuuu accept bosilgandegi*/
-/*.loadingspinnerku {
+.loadingspinnerku {
   --square: 26px;
   --offset: 30px;
   --duration: 2.4s;
@@ -525,6 +526,7 @@ background-position:0% 50%;
 .loadingspinnerku div {
   display: inline-block;
   background: #38bdf8;
+
   border: none;
   border-radius: 2px;
   width: var(--square);
