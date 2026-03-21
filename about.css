@@ -298,17 +298,16 @@ body.loaded{
   }
 
   .loadingspinner2{
-    /* KATTALASHTIRISH */
     --square: 34px;
     --offset: 38px;
 
-    /* TO‘G‘RI CENTER */
     margin: 0;
-    transform: translateY(-15px); /* 🔥 nozik markaz fix */
-    
+    transform: scale(1.8) translateY(-15px);
+
     width: calc(3 * var(--offset) + var(--square));
     height: calc(3 * var(--offset) + var(--square));
   }
+
 
 }
 
@@ -778,11 +777,12 @@ transition: opacity 1.5s ease;
     opacity:0;
     visibility:hidden;
   }
-}
-*{
+}*/
+body{
 margin:0;
 padding:0;
 box-sizing:border-box;
+
 }
 @media (max-width:768px){
 
@@ -802,4 +802,4 @@ margin:4px;
 }
 
 }
-*/
+
