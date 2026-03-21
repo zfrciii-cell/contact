@@ -260,7 +260,7 @@
   z-index:9999;
 transition: opacity 1.5s ease;
   animation:loaderHide 1.0s forwards;
-  place-items: center;
+
     background: linear-gradient(180deg,#071426,#020b16);
 }
 
@@ -297,7 +297,7 @@ body.loaded{
   .loadingspinner2 {
     --square: 4vw;
     --offset: 5vw;
-       transform: scale(1.9);
+       transform: scale(1.3);
            transform: translate(-50%, -50%) scale(2);
   }
 
