@@ -275,10 +275,10 @@ transition: opacity 1.5s ease;
   }
 }
 
-body.loaded{
+/*body.loaded{
   opacity:1;
   transition: opacity 1s ease;
-}
+}*/
 @media (max-width:768px){
   .loadingspinner2{
     transform:scale(0.8);
