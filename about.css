@@ -297,20 +297,18 @@ body.loaded{
     align-items: center;
   }
 
-@media (max-width:600px){
-
   .loadingspinner2{
-    --square: 24px;
-    --offset: 28px;
+    /* KATTALASHTIRISH */
+    --square: 34px;
+    --offset: 38px;
 
+    /* TO‘G‘RI CENTER */
     margin: 0;
-    transform: translateY(-10px); /* markazni saqlaydi */
-
+    transform: translateY(-15px); /* 🔥 nozik markaz fix */
+    
     width: calc(3 * var(--offset) + var(--square));
     height: calc(3 * var(--offset) + var(--square));
   }
-
-}
 
 }
 
