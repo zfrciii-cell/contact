@@ -297,7 +297,7 @@ body.loaded{
   .loadingspinner2 {
     --square: 4vw;
     --offset: 5vw;
-       transform: scale(1.8);
+       transform: scale(1.1);
            transform: translate(-50%, -50%) scale(2);
   }
 
