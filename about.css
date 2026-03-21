@@ -1,5 +1,5 @@
 
-.loadingspinner {
+.loadingspinner2 {
   --square: 26px;
   --offset: 30px;
   --duration: 2.4s;
@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.loadingspinner div {
+.loadingspinner2 div {
   display: inline-block;
   background: #38bdf8;
     /*background: var(--text-color);*/
@@ -34,35 +34,35 @@
   color: black;
 }
 
-.loadingspinner #square1 {
+.loadingspinner2 #square1 {
   left: calc( 0 * var(--offset) );
   top: calc( 0 * var(--offset) );
   animation: square1 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square2 {
+.loadingspinner2 #square2 {
   left: calc( 0 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square2 var(--duration) var(--delay) var(--timing-function) infinite,
               squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square3 {
+.loadingspinner2 #square3 {
   left: calc( 1 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square3 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(2 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square4 {
+.loadingspinner2 #square4 {
   left: calc( 2 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square4 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(3 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square5 {
+.loadingspinner2 #square5 {
   left: calc( 3 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square5 var(--duration) var(--delay) var(--timing-function) infinite,
@@ -258,7 +258,7 @@
   align-items:center;
   z-index:9999;
 transition: opacity 1.5s ease;
-  animation:loaderHide 1s forwards;
+  animation:loaderHide 1.5s forwards;
     background: linear-gradient(180deg,#071426,#020b16);
 }
 
@@ -275,19 +275,20 @@ transition: opacity 1.5s ease;
   }
 }
 
+body.loaded{
+  opacity:1;
+  transition: opacity 1s ease;
+}
 @media (max-width:768px){
-
-  .loadingspinner{
+  .loadingspinner2{
     transform:scale(0.8);
   }
-
 }
-
 @media (max-width:480px){
-
-  .loadingspinner{
+  .loadingspinner2{
     transform:scale(0.75);
   }}
+
 
 @media (max-width: 768px) {
 .card{
@@ -485,7 +486,7 @@ background-position:0% 50%;
 
 
 /*loaderkuuuuu accept bosilgandegi*/
-.loadingspinner {
+.loadingspinnerku {
   --square: 26px;
   --offset: 30px;
   --duration: 2.4s;
@@ -505,7 +506,7 @@ background-position:0% 50%;
   
 }
 
-.loadingspinner div {
+.loadingspinnerku div {
   display: inline-block;
   background: #38bdf8;
     /*background: var(--text-color);*/
@@ -521,35 +522,35 @@ background-position:0% 50%;
   color: black;
 }
 
-.loadingspinner #square1ku {
+.loadingspinnerku #square1ku {
   left: calc( 0 * var(--offset) );
   top: calc( 0 * var(--offset) );
   animation: square1 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square2ku {
+.loadingspinnerku #square2ku {
   left: calc( 0 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square2 var(--duration) var(--delay) var(--timing-function) infinite,
               squarefadein var(--in-duration) calc(1 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square3ku {
+.loadingspinnerku #square3ku {
   left: calc( 1 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square3 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(2 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square4ku {
+.loadingspinnerku #square4ku {
   left: calc( 2 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square4 var(--duration) var(--delay) var(--timing-function) infinite,
                squarefadein var(--in-duration) calc(3 * var(--in-delay)) var(--in-timing-function) both;
 }
 
-.loadingspinner #square5ku {
+.loadingspinnerku #square5ku {
   left: calc( 3 * var(--offset) );
   top: calc( 1 * var(--offset) );
   animation: square5 var(--duration) var(--delay) var(--timing-function) infinite,
@@ -732,6 +733,9 @@ background-position:0% 50%;
     opacity: 1.0;
   }
 }
+
+
+
 .loader-wrapper3{
   position:fixed;
   top:10;
