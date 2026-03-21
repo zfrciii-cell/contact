@@ -298,16 +298,17 @@ body.loaded{
   }
 
   .loadingspinner2{
-    --square: 26px;
-    --offset: 30px;
+    /* KATTALASHTIRISH */
+    --square: 34px;
+    --offset: 38px;
 
+    /* TO‘G‘RI CENTER */
     margin: 0;
-    transform: scale(1.8) translateY(-15px);
-
+    transform: translateY(-15px); /* 🔥 nozik markaz fix */
+    
     width: calc(3 * var(--offset) + var(--square));
     height: calc(3 * var(--offset) + var(--square));
   }
-
 
 }
 
