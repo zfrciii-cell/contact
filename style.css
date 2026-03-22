@@ -135,8 +135,8 @@ h1{
 
 @media (max-width: 600px){
   .container{
-    padding: 25px;
-    max-width: 240px;
+    padding: 30px;
+    max-width: 260px;
     border-radius: 12px;
   }
 }
