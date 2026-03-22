@@ -27,7 +27,7 @@ background:#1e293b;
 padding:40px;
 border-radius:15px;
   width: 90%;
-  max-width: 343px;
+  max-width: 280px;
 box-shadow:0 0 40px rgba(0,195,255,0.15);
 }
 
@@ -133,10 +133,15 @@ h1{
     margin-bottom:20px;
 }
 
+@media (max-width: 600px){
+  .container{
+    padding: 25px;
+    max-width: 240px;
+    border-radius: 12px;
+  }
+}
 @media screen and (max-width: 480px){
-    .container{
-        padding:30px 20px;
-    }
+
 
     .profile{
         width:100px;
